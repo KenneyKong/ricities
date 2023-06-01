@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/othersight');
+
+@import url('https://fonts.cdnfonts.com/css/wanted-m54');
+
+@import url('https://fonts.cdnfonts.com/css/instrumenta');
+
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+#ri {
+  margin-top: -3vw;
+  font-family: 'othersight', sans-serif;
+  color: #1642BF;
+  -webkit-text-stroke: 0.1px #000082;
+  text-align: center;
+  font-size: 12vw;
+}
+
+#theCity {
+  margin-top: -25.6vw;
+  padding-left: 29vw;
+  color: #FCCA0C;
+  font-family: 'Wanted M54', sans-serif;
+  font-size: 2vw;
+  -webkit-text-stroke: 0.1px #1642BF;
+}
+
+body {
+  color: darkblue;
+  background-color: white;
+  background-image: url("https://cdn.britannica.com/48/3748-050-B24F11E7/anchor-flag-one-pervasive-Rhode-Island-American-1897.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: auto;
+  }
+
+#grid-container {
+padding-top: 23vw;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+font-family: 'Instrumenta', sans-serif;
+font-size: 3.3vw;
+}
+
+#cities { 
+  margin-top: -5.6vw;
+  grid-area: 1 / 1 / 2 / 6;
+  text-align: center;
+  background-color:rgba(40, 67, 135, 0.1);
+  -webkit-text-stroke: .7px white;
+  
+}
+
+#totalCities {
+  grid-area: 2 / 1 / 3 / 4;
+  background-color:rgba(40, 67, 135, 0.1);
+  -webkit-text-stroke: .7px white;
+}
+
+#totalPop {
+  grid-area: 2 / 4 / 3 / 6;
+  background-color:rgba(40, 67, 135, 0.1);
+  float: right;
+  -webkit-text-stroke: .7px white;
+}
+
+#capital {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color:rgba(40, 67, 135, 0.1);
+  -webkit-text-stroke: .7px white;
+}
+
+#population {
+  grid-area: 3 / 3 / 4 / 6;
+  background-color:rgba(40, 67, 135, 0.1);
+  text-align: right;
+  -webkit-text-stroke: .7px white;
+}
+
+#numIslands{
+  grid-area: 4 / 1 / 5 / 4;
+  background-color:rgba(40, 67, 135, 0.1);
+  -webkit-text-stroke: .7px white;
+}
+
+#smallest {
+  grid-area: 4 / 4 / 5 / 6;
+  background-color:rgba(40, 67, 135, 0.1);
+  text-align: right;
+  -webkit-text-stroke: .7px white;
+}
+
+#islanders{
+  grid-area: 5 / 1 / 6 / 3;
+  background-color:rgba(40, 67, 135, 0.1);
+  -webkit-text-stroke: .7px white;
+}
+
+#islandPop {
+  grid-area: 5 / 3 / 6 / 6;
+  background-color:rgba(40, 67, 135, 0.1);
+  text-align: right;
+  -webkit-text-stroke: .7px white;
+}
