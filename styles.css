@@ -68,13 +68,13 @@ font-size: 3.3vw;
   grid-area: 2 / 4 / 3 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   float: right;
-  -webkit-text-stroke: .7px white;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #capital {
   grid-area: 3 / 1 / 4 / 3;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px white;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #population {
