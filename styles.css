@@ -61,7 +61,7 @@ font-size: 3.3vw;
 #totalCities {
   grid-area: 2 / 1 / 3 / 4;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px white;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #totalPop {
