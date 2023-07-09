@@ -30,7 +30,7 @@ header {
 
 body {
   color: darkblue;
-  background-color: #ffffff;
+  background-color: white;
   background-image: url("https://cdn.britannica.com/48/3748-050-B24F11E7/anchor-flag-one-pervasive-Rhode-Island-American-1897.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,13 +68,13 @@ font-size: 3.3vw;
   grid-area: 2 / 4 / 3 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   float: right;
-  -webkit-text-stroke: .7px #ffffff;
+  -webkit-text-stroke: .7px white;
 }
 
 #capital {
   grid-area: 3 / 1 / 4 / 3;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #ffffff;
+  -webkit-text-stroke: .7px white;
 }
 
 #population {
