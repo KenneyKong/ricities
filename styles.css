@@ -30,7 +30,7 @@ header {
 
 body {
   color: darkblue;
-  background-color: #fff;
+  background-color: #ffffff;
   background-image: url("https://cdn.britannica.com/48/3748-050-B24F11E7/anchor-flag-one-pervasive-Rhode-Island-American-1897.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,57 +54,57 @@ font-size: 3.3vw;
   grid-area: 1 / 1 / 2 / 6;
   text-align: center;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #totalCities {
   grid-area: 2 / 1 / 3 / 4;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #totalPop {
   grid-area: 2 / 4 / 3 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   float: right;
-  -webkit-text-stroke: .7px #fff;
-}fff
+  -webkit-text-stroke: .7px #ffffff;
+}
 
 #capital {
   grid-area: 3 / 1 / 4 / 3;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #population {
   grid-area: 3 / 3 / 4 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   text-align: right;
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #numIslands{
   grid-area: 4 / 1 / 5 / 4;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #smallest {
   grid-area: 4 / 4 / 5 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   text-align: right;
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #islanders{
   grid-area: 5 / 1 / 6 / 3;
   background-color:rgba(40, 67, 135, 0.1);
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
 
 #islandPop {
   grid-area: 5 / 3 / 6 / 6;
   background-color:rgba(40, 67, 135, 0.1);
   text-align: right;
-  -webkit-text-stroke: .7px #fff;
+  -webkit-text-stroke: .7px #ffffff;
 }
